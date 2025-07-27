@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<!-- a normal table -->
 	<h2>Normal Table</h2>
 	<table>
 		<tr>
@@ -28,6 +29,7 @@
 			<td>5/3/2021</td>
 		</tr>
 	</table>
+	<!-- table that spans columns -->
 	<h2>Table with colspan</h2>
 	<table>
 		<tr>
@@ -45,6 +47,7 @@
 			<td>13</td>
 		</tr>
 	</table>
+	<!-- table that spans rows and includes an image-->
 	<h2>Table with rowspan and image</h2>
 	<table>
 		<tr>
@@ -61,6 +64,7 @@
 			<td><img id="man" src="in_an_edit_playlist_icon.jpeg" alt="man"></td>
 		</tr>
 	</table>
+	<!-- tic tac toe table -->
 	<h2>Tic Tac Toe</h2>
 	<table class="tic">
 		<tr>
@@ -79,5 +83,40 @@
 			<td>O</td>
 		</tr>
 	</table>
+	<!-- form with various input types -->
+	<h2>Form</h2>
+	<form action="mailto:example@gmail.com" method="POST" enctype="text/plain">
+		<!-- text input -->
+		<label for="email">Email:</label><br>
+		<input type="text" id="email" name="email" value="the_goat@gmail.com"><br><br>
+		<!-- radio input -->
+		<label>Main Language:</label><br>
+		<input type="radio" id="english" name="main_lang" value="english">
+		<label for="english">English</label><br>
+		<input type="radio" id="american" name="main_lang" value="american">
+		<label for="american">American</label><br>
+		<input type="radio" id="freedom" name="main_lang" value="freedom">
+		<label for="freedom">Freedom Land</label><br><br>
+		<!-- checkbox input -->
+		<label>Select all that apply:</label><br>
+		<input type="checkbox" id="ten" value="ten" name="robux_wanted">
+		<label for="ten">I want 10 robux</label><br>
+		<input type="checkbox" id="twenty" value="twenty" name="robux_wanted">
+		<label for="twenty">I want 20 robux</label><br><br>
+		<!-- pulldown menu -->
+		<label for="options">Would you like to be contacted in the future?</label><br>
+		<select name="contact" id="options">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</select><br><br>
+		<!-- color selector -->
+		<label for="color">Select a color:</label>
+		<input type="color" id="color" name="color" value="#ff0000"><br><br>
+		<!-- meter element -->
+		<label for="progress">Progress:</label>
+		<meter id="progress" value="4" min="0" max="10"></meter><br><br>
+		<!-- submit button -->
+		<input type="submit">
+	</form>
 </body>
 </html>
