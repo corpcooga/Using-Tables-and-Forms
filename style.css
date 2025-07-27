@@ -35,3 +35,9 @@ td {
 	border-radius: 5px;
 	padding: 30px 50px;
 }
+
+#man {
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+}
