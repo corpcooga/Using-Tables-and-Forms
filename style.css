@@ -54,3 +54,14 @@ td {
 	border: 1px solid #b3d9ff;
 	padding: 10px 13px;
 }
+
+form {
+	font-size: 18px;
+	background-color: #f9f9f9;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 40px;
+	margin: 40px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	line-height: 1.6;
+}
