@@ -3,6 +3,7 @@ body {
 	background-color: antiquewhite;
 }
 
+/* customized headings */
 h2 {
 	font-size: 30px;
 	text-align: center;
@@ -15,12 +16,14 @@ h2 {
 	text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.2);
 }
 
+/* table styling using spacing */
 table {
 	text-align: center;
 	margin: 20px auto;
 	border-spacing: 5px;
 }
 
+/* table header styling using border */
 th {
 	font-size: 20px;
   	background-color: #f2f2f2;
@@ -37,24 +40,28 @@ td {
 	padding: 30px 50px;
 }
 
+/* image styling */
 #man {
 	width: 100px;
 	height: 100px;
 	border-radius: 10px;
 }
 
+/* tic tac toe board styling */
 .tic {
 	border-radius: 10px;
 	padding: 10px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* tic tac toe cell styling */
 .tic td {
 	background-color: #e6f7ff;
 	border: 1px solid #b3d9ff;
 	padding: 10px 13px;
 }
 
+/* basic form styling */
 form {
 	font-size: 18px;
 	background-color: #f9f9f9;
